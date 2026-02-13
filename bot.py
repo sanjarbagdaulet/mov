@@ -1,7 +1,6 @@
 from telethon import TelegramClient, events
 from accounts import ACC_MAIN, BOT_MAIN
 
-# Bot client (bot_token), using your app credentials from ACC_MAIN
 bot = TelegramClient(
     BOT_MAIN.session,
     ACC_MAIN.api_id,
